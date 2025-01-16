@@ -1,0 +1,11 @@
+body{
+  /* background-color: black; */
+  background-image: url("/public/images/background/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body > * {
+  z-index: 1;
+}
+
