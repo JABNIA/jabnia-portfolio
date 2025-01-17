@@ -12,9 +12,9 @@ function App() {
     <>
     <div>
       {/* <Background /> */}
-    <BrowserRouter basename='/jabnia-portfolio'>
+    <BrowserRouter basename='/jabnia-portfolio/'>
       <Routes>
-        <Route path='/jabnia-portfolio' element={<Layout />}>
+        <Route path='/jabnia-portfolio/' element={<Layout />}>
           <Route index element={<HomePage />}/>
           <Route path='/jabnia-portfolio/projects' element={<Projects />}/>
           <Route path='/jabnia-portfolio/about' element={<About />}/>
