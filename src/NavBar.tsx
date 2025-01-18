@@ -53,10 +53,10 @@ function NavBar() {
           </span>
           <span style={{color:"rgb(181, 46, 214)"}}>Navigation</span>
         </h2>
-        <NavItem text="Home" icon={faHouse} link="/jabnia-portfolio/" />
-        <NavItem text="Works" icon={faFolder} link="/jabnia-portfolio/projects" />
-        <NavItem text="Skills" icon={faMicrochip} link="/jabnia-portfolio/skills" />
-        <NavItem text="About Me" icon={faUser} link="/jabnia-portfolio/about" />
+        <NavItem text="Home" icon={faHouse} link="/" />
+        <NavItem text="Works" icon={faFolder} link="/projects" />
+        <NavItem text="Skills" icon={faMicrochip} link="/skills" />
+        <NavItem text="About Me" icon={faUser} link="/about" />
       </nav>
     );
   }
