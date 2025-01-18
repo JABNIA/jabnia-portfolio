@@ -12,16 +12,16 @@ function App() {
     <>
     <div>
       {/* <Background /> */}
-    <BrowserRouter basename='/jabnia-portfolio/'>
+    <HashRouter basename='/jabnia-portfolio/'>
       <Routes>
-        <Route path='https://jabnia.github.io/jabnia-portfolio/' element={<Layout />}>
+        <Route path='/jabnia-portfolio/' element={<Layout />}>
           <Route index element={<HomePage />}/>
           <Route path='/jabnia-portfolio/projects' element={<Projects />}/>
           <Route path='/jabnia-portfolio/about' element={<About />}/>
           <Route path='/jabnia-portfolio/skills' element={<Skills />}/>
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
 
     </div>
     </>
