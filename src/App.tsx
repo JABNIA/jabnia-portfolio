@@ -14,11 +14,11 @@ function App() {
       {/* <Background /> */}
     <HashRouter>
       <Routes>
-        <Route path='/jabnia-portfolio/' element={<Layout />}>
+        <Route path='/' element={<Layout />}>
           <Route index element={<HomePage />}/>
-          <Route path='/jabnia-portfolio/projects' element={<Projects />}/>
-          <Route path='/jabnia-portfolio/about' element={<About />}/>
-          <Route path='/jabnia-portfolio/skills' element={<Skills />}/>
+          <Route path='/projects' element={<Projects />}/>
+          <Route path='/about' element={<About />}/>
+          <Route path='/skills' element={<Skills />}/>
         </Route>
       </Routes>
     </HashRouter>
