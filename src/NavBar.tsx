@@ -32,10 +32,10 @@ function NavBar() {
           </span>
           <span>Navigation</span>
         </h2>
-        <NavItem text="Home" icon={faHouse} link="/jabnia-portfolio/" />
-        <NavItem text="Works" icon={faFolder} link="/jabnia-portfolio/projects" />
-        <NavItem text="Skills" icon={faMicrochip} link="/jabnia-portfolio/skills" />
-        <NavItem text="About Me" icon={faUser} link="/jabnia-portfolio/about" />
+        <NavItem text="Home" icon={faHouse} link="/" />
+        <NavItem text="Works" icon={faFolder} link="/projects" />
+        <NavItem text="Skills" icon={faMicrochip} link="/skills" />
+        <NavItem text="About Me" icon={faUser} link="/about" />
       </nav>
     );
   } 
