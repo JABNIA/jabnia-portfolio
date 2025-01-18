@@ -12,7 +12,7 @@ function App() {
     <>
     <div>
       {/* <Background /> */}
-    <HashRouter basename='/jabnia-portfolio/'>
+    <HashRouter'>
       <Routes>
         <Route path='/jabnia-portfolio/' element={<Layout />}>
           <Route index element={<HomePage />}/>
