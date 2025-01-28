@@ -11,7 +11,7 @@ function App() {
   return (
     <>
     <div>
-      {/* <Background /> */}
+      {/* <Background basename="/jabnia-portfolio/"/> */}
     <HashRouter>
       <Routes>
         <Route path='/' element={<Layout />}>
