@@ -1,0 +1,51 @@
+.projects-container{
+    width: 1440px;
+    height: 900px;
+    margin: auto;
+    display: flex;
+    gap: 70px;
+    flex-wrap: wrap;
+    border: 3px solid cyan;
+    border-radius: 15px;
+    padding: 40px;
+    box-sizing: border-box;
+    animation: Expand 2s linear;
+    overflow: auto;
+    /* animation-iteration-count: 1; */
+}
+
+
+.project-wrapper{
+    width: 400px;
+    height: 300px;
+}
+
+.project-link {
+    width: 100%;
+    height: 100%;
+}
+
+
+.project-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.project-wrapper:hover{
+    transform: scale(1.1, 1.1);
+    transition-duration: 0.5s;
+}
+
+.project-name {
+    text-align: center;
+}
+
+@keyframes Expand {
+    0% {
+        min-height: 0;
+    }
+    100%{
+        min-height: 900px;
+    }
+}
