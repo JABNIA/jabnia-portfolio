@@ -7,7 +7,7 @@ function Projects() {
           <Project link="https://jabnia.github.io/audiophile/" image="./images/pages/audiophile-ecommerce-webpage.png" siteName="AudioPhile ecommerce webpage" />
           <Project link="https://jabnia.github.io/audiophile/" image="./images/pages/audiophile-ecommerce-webpage.png" siteName="AudioPhile ecommerce webpage" />
           <Project link="https://jabnia.github.io/audiophile/" image="./images/pages/audiophile-ecommerce-webpage.png" siteName="AudioPhile ecommerce webpage" />
-          <Project link="https://jabnia.github.io/audiophile/" image="./images/pages/audiophile-ecommerce-webpage.png" siteName="AudioPhile ecommerce webpage" />
+          <Project link="https://jabnia.github.io/tip-calculator/" image="./images/pages/tip-calculator.png" siteName="tip calculator" />
           <Project link="https://jabnia.github.io/rating-app/" image="./images/pages/rating-app.png" siteName="Interactive rating app" />
         </div>
     </div>
