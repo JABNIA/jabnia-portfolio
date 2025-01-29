@@ -11,7 +11,7 @@ function App() {
   return (
     <>
     <div>
-      {/* <Background /> */}
+      {/* <Background/> */}
     <HashRouter>
       <Routes>
         <Route path='/' element={<Layout />}>
