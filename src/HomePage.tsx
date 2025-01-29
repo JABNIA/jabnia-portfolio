@@ -22,7 +22,7 @@ function HomePage() {
         <div>
           <h3 className="period">Currently</h3>
           <p>
-            I am novice Front-developer and my focus is websites based on react. I study JS and it's lybraries and Read books Every day. Every day is a unstopable battle, and it's kind of funny too.
+            I am Front-developer and my focus is websites based on react. I study JS and it's lybraries and Read books Every day. Every day is a unstopable battle, and it's kind of funny too.
           </p>
         </div>
         <div>
