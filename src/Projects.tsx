@@ -5,7 +5,7 @@ function Projects() {
     <div>
         <div className="projects-container">
           <Project link="https://jabnia.github.io/audiophile/" image="./images/pages/audiophile-ecommerce-webpage.png" siteName="AudioPhile ecommerce webpage" />
-          <Project link="https://jabnia.github.io/entertaiment-webpage/" image="./images/pages/entertaiment-webpage" siteName="AudioEntertaiment Webpage" />
+          <Project link="https://jabnia.github.io/entertaiment-webpage/" image="./images/pages/entertaiment-webpage.png" siteName="Entertaiment Webpage" />
           <Project link="https://jabnia.github.io/custom-card/" image="./images/pages/custom-card.png" siteName="Custom Card App" />
           <Project link="https://jabnia.github.io/password-generator/" image="./images/pages/password-generator.png" siteName="Password Generator Web App" />
           <Project link="https://jabnia.github.io/dev-finder/" image="./images/pages/dev-finder.png" siteName="Dev Finder App" />
